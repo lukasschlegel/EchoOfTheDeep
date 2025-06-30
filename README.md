@@ -18,7 +18,7 @@ Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
 
 Dieser Komponentenplan zeigt auf, aus welchen Elementen die Installation besteht:
 
-KOMPONENTENPLAN EINFÜGEN
+![Komponentenplan](Komponentenplan.png)
 
 Dafür werden die verschiedenen Komponenten gebraucht:
 
