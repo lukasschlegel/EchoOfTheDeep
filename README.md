@@ -44,47 +44,80 @@ So kann unser Projekt Echo of the Deep nachgebaut werden:
 ### 1. Quallenvisuals vorbereiten
 - Animierte Quallen online suchen  
 - evtl. Video bearbeiten und transparent exportieren (wir hatten Quallen mit Greenscreen und mussten diesen entfernen)
-- Dateien komprimieren (z. B. mit Notch) für bessere Performance in TouchDesigner 
-
-Link zu unseren bearbeiteten Quallenvisuals folgt weiter unten
+- Dateien komprimieren (z. B. mit Notch) für bessere Performance in TouchDesigner
+- Wir haben drei verschiedene Quallen für mehr Varianz im Bild verwendet.
 
 ### 2. Sounddesign entwickeln
 
 - Für den Hintergrund: Wellensound und beruhigende Ambient-Musik sammeln, in einem Schnittprogramm (wir haben Premiere Pro verwendet) zusammensetzen und optimalerweise als wav oder sonst als mp3 exportieren. 
-- Für den Sound-Effekt: Effekt passend komponieren (z.B. schnelle Wasserbewegungen, die das Wegschwimmen von Fischen symbolisieren)
+- Für den Sound-Effekt: Effekt passend komponieren (z.B. schnelle Wasserbewegung, die das Wegschwimmen der Quallen symbolisiert)
 
-Link zu unseren bearbeiteten Sounddesigns folgt weiter unten
+[🎵 Hintergrundmusik abspielen](https://drive.google.com/drive/folders/1M8GITv5ircgsUhPRSOetbMWUt5L9bXKJ)
+
+[🎵 Soundeffekt abspielen](https://drive.google.com/drive/folders/1M8GITv5ircgsUhPRSOetbMWUt5L9bXKJ)
 
 ### 3. Projekt in TouchDesigner aufsetzen
 
-Wir stellen ein bereits fertiges Touch Designer Projekt für die Reproduzierbarkeit zur Verfügung. Hier müssen lediglich die fehlenden Dateien neu verknüpft und das richtige Mikrofon verbunden werden.
+Wir stellen ein bereits fertiges Touch Designer Projekt für die Reproduzierbarkeit zur Verfügung. Hier müssen lediglich die fehlenden Dateien neu verknüpft und das richtige Mikrofon verbunden werden. Unter folgendem Link können die Quallenvisuals, das TouchDesigner Projekt und das Sounddesign heruntergeladen werden:
+
+[Zum Download](https://drive.google.com/drive/folders/1o2-5T5PC-PCn-MEhUW-qa93pJ10lwVS9?usp=drive_link)
 
 #### Struktur des TouchDesigner-Projekts
 
-Das Projekt besteht aus mehreren Bestandteilen, die miteinander verknüpft wurden:
+Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verknüpft wurden:
 
-##### 🔊 Audio-Setup & Trigger-Logik
+#### 🔊 Trigger
 
-- Über `audiodevin` wird ein **externes Mikrofon** eingebunden (wir haben das Mikrofon einer Webcam verwendet).
-- Das Audiosignal wird an einen **`audioAnalysis`-CHOP** weitergegeben.
-- Dort wird ein **"Kick" (lautes Geräusch)** herausgefiltert, der über einen **Trigger** eine Reaktion auslöst.
-- Gleichzeitig läuft über `audiofilein` ein konstanter Hintergrundsound (Sounddesign).
-- Ein zweites `audiofilein` bindet den Soundeffekt ein, der ab
+- Mikrofoneingang via `audiodevin`
+- Analyse mit `audioAnalysis`, `select`, `trigger`
+- Klatsch-Geräusch löst `chopexec1` aus
+- Visualisierung über `trail`
+- Testbutton zur manuellen Auslösung
 
-##### 🪼 Quallenvisuals & Partikelsystem
+#### 🎵 Hintergrundmusik
 
-- Die vorbereiteten Videodateien mit den Quallen werden als **Instanzen von Sphere SOPs** in einem Partikelsystem eingebunden.
-- Die Quallen werden per Zufallsverteilung im Raum angeordnet.
-- Bei einem Geräusch-Trigger:
-  - Vergrössern sich die Quallen kurzzeitig
-  - Bewegen sich leicht auseinander (simulierter Impuls)
-- Die Bewegungen basieren auf Noise-Parametern und Transform SOPs.
+- Audiodatei über `audiofilein1` eingebunden
+- Ausgabe via `audiodevout1`
 
-##### 🌊 Szene & Output
+#### 💥 Soundeffekt
 
-- Die Szene enthält zusätzlich einen **Hintergrundeffekt**, der die Wasseratmosphäre unterstützt.
-- Über einen **`render` TOP** und **`composite (over)`** wird das finale Bild erstellt.
-- Der Output wird via **Spout oder Syphon** (`spoutOut1`) an **Resolume Arena** weitergegeben.
+- Zusätzlicher Audioeffekt über `audiofilein2`
+- Triggergesteuert
+- Modulation mit `pattern`, `noise`, `math`
+
+#### 🌐 Prep Projection for Igloo
+
+- Bewegung mit Noise-CHOPs auf Spheres
+- Instanzsteuerung via `sopto`, `merge`
+- Optimiert für 360°-Projektion
+
+#### 🪼 Jellyfish Assets for Sphere
+
+- 3 Quallenarten als Videosequenzen
+- Eingebunden via `chaix1`, gemappt auf `geo2`
+- Instanzierung über `constant1`, `inst`
+
+#### 🌊 Background under the sea
+
+- Meereshintergrund mit `ramp`, `lookup`, `displace`
+- Subtile Bewegung für Tiefe und Atmosphäre
+
+#### 🎥 Cam and Render
+
+- Szeneansicht über `cam1`
+- Rendering via `render`, `projection1`
+- Vorbereitung für Output mit `math3`
+
+#### 📏 Resolution (adjustable)
+
+- Einstellung über `constant2`
+- Standard: 8000×2000 px
+- **Anpassbar für Tests oder andere Formate**
+
+#### 🌀 Igloo Output
+
+- Zusammensetzung mit `over`
+- Ausgabe über `syphonspoutout1` → Resolume Arena
 
 ### 4. Installation im Igloo
 
@@ -100,38 +133,13 @@ Das Projekt besteht aus mehreren Bestandteilen, die miteinander verknüpft wurde
 - Falls nötig: Sounddesign leicht anpassen oder Lautstärkepegel feinjustieren.
 - Reaktion und Bewegung der Quallen im Igloo testen.
 - Eventuell Grösse oder Platzierung der Quallen korrigieren.
+- Auflösung allenfalls anpassen.
 
 ### 6. Fertig – testen & erleben
 
 - Klatschen, beobachten, eintauchen.
 - Die Quallen reagieren live auf Geräusche – die Installation ist einsatzbereit.
-
----
-
-### 🔗 Projektdateien
-
-Alle benötigten Dateien sind unter folgendem Link zu finden:
-https://drive.google.com/drive/folders/1o2-5T5PC-PCn-MEhUW-qa93pJ10lwVS9?usp=sharing
-
-Dazu gehören:
-- TouchDesigner-Projektdatei
-- Quallen-Videoclips
-- Sounddesign
-
-### Visuelle Umsetzung
-
-Die Quallen wurden als transparente Videodateien aus bestehenden Quellen übernommen. Die ursprünglichen Videos hatten einen Greenscreen-Hintergrund, der in Adobe Premiere entfernt wurde. Die so freigestellten Quallen wurden in TouchDesigner eingebunden und dort als Partikelsystem inszeniert. Insgesamt wurden drei unterschiedliche Quallenarten verwendet, um Vielfalt zu schaffen.
-
-### Sounddesign
-
-Für den Klangteppich wurden ruhige Naturgeräusche und Musik kombiniert. Die einzelnen Audiospuren wurden in Premiere gemischt und zu einem harmonischen, beruhigenden Soundtrack verarbeitet. Dieser unterstreicht die meditative Atmosphäre der Installation.
-
-### Interaktion
-
-Das haptische Interface basiert auf Soundimpulsen – insbesondere Klatschen. Diese werden über ein Mikrofon aufgenommen und in TouchDesigner analysiert. Sobald der gemessene Lautstärkepegel einen definierten Wert überschreitet, wird ein Trigger aktiviert:  
-Die Quallen reagieren und entfernen sich voneinander. Nach einer kurzen Zeit kehren sie langsam in ihre Ausgangsposition zurück.  
-Diese abrupte Bewegung vermittelt kurzzeitig Unruhe und steht im Kontrast zur sonst ruhigen Umgebung – eine gezielte emotionale Wirkung.
-
+  
 ---
 
 ## Bericht zum Umsetzungsprozess
