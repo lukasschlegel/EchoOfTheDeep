@@ -62,7 +62,7 @@ Wir stellen ein bereits fertiges Touch Designer Projekt für die Reproduzierbark
 
 [Zum Download](https://drive.google.com/drive/folders/1o2-5T5PC-PCn-MEhUW-qa93pJ10lwVS9?usp=drive_link)
 
-#### Struktur des TouchDesigner-Projekts
+#### Struktur des TouchDesigner-Projekts:
 
 Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verknüpft wurden:
 
