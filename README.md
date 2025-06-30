@@ -119,7 +119,7 @@ Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verkn
 - Zusammensetzung mit `over`
 - Ausgabe über `syphonspoutout1` → Resolume Arena
 
-![Screenshot_TouchDesigner](Screenshot TouchDesigner.png)
+![Screenshot TouchDesigner](Screenshot_TouchDesigner.png)
 
 ### 4. Installation im Igloo
 
@@ -212,7 +212,7 @@ Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam e
 
 Die Dokumentation wurde gemeinsam verfasst, wobei alle Gruppenmitglieder inhaltliche Beiträge leisteten. Während zwei Tagen in **Chur** installierte das Team schliesslich die Installation im Igloo und führte die finalen Tests gemeinsam durch.
 
-![Team](Abstimmung_im_Igloo.JPG)
+![Abstimmung im Igloo](Abstimmung_im_Igloo.JPG)
 
 ---
 
