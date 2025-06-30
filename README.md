@@ -22,13 +22,13 @@ Dieser Komponentenplan zeigt auf, aus welchen Elementen die Installation besteht
 
 Dafür werden die verschiedenen Komponenten gebraucht:
 
-### Software
+### Software:
 
 - **Premiere Pro**: Sounddesign, Animationen aufbereiten  
 - **TouchDesigner**: Programmierung der Installation  
 - **Resolume Arena**: Projektion, Mapping, Spout-Verbindung  
 
-### Hardware (im Igloo)
+### Hardware (im Igloo):
 
 - **Mensch**: Aktion mit Klatschen auslösen  
 - **Mikrofon**: Klatschen erkennen 
