@@ -119,6 +119,8 @@ Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verkn
 - Zusammensetzung mit `over`
 - Ausgabe über `syphonspoutout1` → Resolume Arena
 
+Der Screenshot zeigt das fertige TouchDesigner-Netz:
+
 ![Screenshot TouchDesigner](Screenshot_TouchDesigner.png)
 
 ### 4. Installation im Igloo
