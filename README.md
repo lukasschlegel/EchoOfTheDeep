@@ -8,7 +8,9 @@ Das Publikum kann in diese ruhige, meditative Umgebung eintauchen. Die Besucheri
 
 Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
 
-VIDEO EINFÜGEN
+## Videosokumentation
+
+[Videosokumentation ansehen](https://youtu.be/tkS_R5urPmU)
 
 ---
 
