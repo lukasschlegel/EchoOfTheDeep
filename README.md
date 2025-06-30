@@ -174,7 +174,7 @@ Gelernt wurde unter anderem:
 - Aufbau und Strukturierung eines TouchDesigner-Netzwerks
 - Einbindung und Steuerung von Partikelsystemen
 - Analyse von Audiosignalen und Erzeugung interaktiver Reaktionen
-- Technisches Setup und Mapping in einem 360°-Igloo
+- Einblick in technisches Setup und Mapping in einem 360°-Igloo
 - Zusammenspiel von Audio, Video, Interaktion und Raum
 
 ## Projektteam
