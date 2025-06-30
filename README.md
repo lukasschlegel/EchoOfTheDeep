@@ -18,7 +18,7 @@ Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
 
 Dieser Komponentenplan zeigt auf, aus welchen Elementen die Installation besteht:
 
-![Komponentenplan](Komponentenplan.png)
+![Komponentenplan](Komponentenplan_neu.png)
 
 Dafür werden die verschiedenen Komponenten gebraucht:
 
@@ -119,6 +119,8 @@ Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verkn
 - Zusammensetzung mit `over`
 - Ausgabe über `syphonspoutout1` → Resolume Arena
 
+![Screenshot TouchDesigner](Screenshot TouchDesigner.png)
+
 ### 4. Installation im Igloo
 
 - TouchDesigner-Projekt auf den Rechner laden, der mit dem Beamer-Setup verbunden ist.
@@ -139,6 +141,8 @@ Das TouchDesigner-Netz besteht aus mehreren Bestandteilen, die miteinander verkn
 
 - Klatschen, beobachten, eintauchen.
 - Die Quallen reagieren live auf Geräusche – die Installation ist einsatzbereit.
+
+![GIF Quallenbewegung](Quallenbewegung.gif)
   
 ---
 
@@ -173,6 +177,7 @@ Auch wenn die Bewegung nicht vollständig naturgetreu ist, wirkt der Effekt visu
 
 ### Known Bugs
 Im Igloo wurde eine Webcam mit integriertem Mikrofon zur Klatscherkennung verwendet. Aufgrund der eingeschränkten Qualität wurde das Klatschen nicht immer zuverlässig erkannt, wenn nicht in Richtung des Mikrofons geklatscht wurde. Durch die zufällige Verteilung der Quallen kam es zudem vereinzelt zu Überlagerungen beim Klatscheffekt, was die Ästhetik leicht beeinträchtigte. Dieses Problem konnte jedoch grösstenteils durch eine Anpassung der Quallengrösse gelöst werden. Abgesehen davon sind keine weiteren Fehler bekannt – das Projekt funktionierte im Igloo wie geplant.
+
 ## Lernfortschritt
 
 Das Projekt war für alle Gruppenmitglieder eine wertvolle Lernerfahrung – insbesondere im Umgang mit dem Programm TouchDesigner, das zuvor kein Teammitglied kannte.  
@@ -193,7 +198,9 @@ Gelernt wurde unter anderem:
 
 ### Aufgabenverteilung & Zusammenarbeit
 
-Während des gesamten Projekts haben die Gruppenmitglieder eng zusammengearbeitet.  Von der Konzeption bis zur finalen Umsetzung wurden Entscheidungen gemeinsam getroffen und die Aufgaben fair verteilt. Alle unterstützten sich zudem gegenseitig bei auftretenden Problemen.  
+Während des gesamten Projekts haben die Gruppenmitglieder eng zusammengearbeitet.  Von der Konzeption bis zur finalen Umsetzung wurden Entscheidungen gemeinsam getroffen und die Aufgaben fair verteilt. Alle unterstützten sich zudem gegenseitig bei auftretenden Problemen. 
+
+![Team](Zusammenarbeit.jpg)
 
 Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam erstellt. Um danach effizient voranzukommen, übernahmen die Mitglieder gezielte Aufgaben:
 
@@ -204,6 +211,8 @@ Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam e
 - **Lukas Schlegel** übernahm das Filmen und Schneiden des Projektvideos, welches die Installation dokumentiert und auch den Projekt-Prozess ausserhalb des Igloos sichtbar macht.
 
 Die Dokumentation wurde gemeinsam verfasst, wobei alle Gruppenmitglieder inhaltliche Beiträge leisteten. Während zwei Tagen in **Chur** installierte das Team schliesslich die Installation im Igloo und führte die finalen Tests gemeinsam durch.
+
+![Abstimmung im Igloo](Abstimmung im Igloo.jpg)
 
 ---
 
