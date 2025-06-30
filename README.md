@@ -184,6 +184,8 @@ Im Igloo wurde eine Webcam mit integriertem Mikrofon zur Klatscherkennung verwen
 
 Das Projekt war für alle Gruppenmitglieder eine wertvolle Lernerfahrung – insbesondere im Umgang mit dem Programm TouchDesigner, das zuvor kein Teammitglied kannte.  
 
+![Lerneffekt TouchDesigner](Lerneffekt_TouchDesigner.JPG)
+
 Gelernt wurde unter anderem:
 
 - Aufbau und Strukturierung eines TouchDesigner-Netzwerks
