@@ -201,7 +201,7 @@ Die Dokumentation wurde gemeinsam verfasst, wobei alle Gruppenmitglieder inhaltl
 
 ##  Fazit
 
-Echo of the Deep** zeigt, wie mit TouchDesigner eine faszinierende und immersive Welt erschaffen werden kann.  Die Verbindung von Klang, Bewegung und Interaktion erzeugt ein eindrückliches Erlebnis, das zum Eintauchen und Nachdenken einlädt. Rückblickend wäre es von Vorteil gewesen, sich vor Projektstart noch intensiver mit TouchDesigner vertraut zu machen. Dies hätte den Arbeitsprozess effizienter gestaltet und dadurch wäre die Umsetzung eines noch komplexeren Projekts möglich gewesen. Dennoch ist das Team mit dem Ergebnis sehr zufrieden und stolz darauf, innerhalb kurzer Zeit und ohne Vorkenntnisse ein solches Projekt realisiert zu haben.
+Echo of the Deep zeigt, wie mit TouchDesigner eine faszinierende und immersive Welt erschaffen werden kann.  Die Verbindung von Klang, Bewegung und Interaktion erzeugt ein eindrückliches Erlebnis, das zum Eintauchen und Nachdenken einlädt. Rückblickend wäre es von Vorteil gewesen, sich vor Projektstart noch intensiver mit TouchDesigner vertraut zu machen. Dies hätte den Arbeitsprozess effizienter gestaltet und dadurch wäre die Umsetzung eines noch komplexeren Projekts möglich gewesen. Dennoch ist das Team mit dem Ergebnis sehr zufrieden und stolz darauf, innerhalb kurzer Zeit und ohne Vorkenntnisse ein solches Projekt realisiert zu haben.
 ---
 
 ##  Projektinfos
