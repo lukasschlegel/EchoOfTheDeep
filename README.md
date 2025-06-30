@@ -6,9 +6,9 @@
 
 Das Publikum kann in diese ruhige, meditative Umgebung eintauchen. Die Besucherinnen und Besucher können über laute Geräusche – insbesondere durch Klatschen – direkt mit der Installation interagieren. Wird ein solcher Impuls erkannt, reagieren die Quallen sichtbar: Sie vergrössern sich und bewegen sich abrupt auseinander, danach beruhigen sie sich langsam wieder. 
 
-Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
-
 ## Videodokumentation
+
+Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
 
 [![Videosokumentation](https://img.youtube.com/vi/tkS_R5urPmU/0.jpg)](https://youtu.be/tkS_R5urPmU)
 
