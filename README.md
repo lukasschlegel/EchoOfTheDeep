@@ -200,7 +200,7 @@ Gelernt wurde unter anderem:
 
 Während des gesamten Projekts haben die Gruppenmitglieder eng zusammengearbeitet.  Von der Konzeption bis zur finalen Umsetzung wurden Entscheidungen gemeinsam getroffen und die Aufgaben fair verteilt. Alle unterstützten sich zudem gegenseitig bei auftretenden Problemen. 
 
-![Team](Zusammenarbeit.jpg)
+![Team](Zusammenarbeit.JPG)
 
 Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam erstellt. Um danach effizient voranzukommen, übernahmen die Mitglieder gezielte Aufgaben:
 
@@ -212,7 +212,7 @@ Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam e
 
 Die Dokumentation wurde gemeinsam verfasst, wobei alle Gruppenmitglieder inhaltliche Beiträge leisteten. Während zwei Tagen in **Chur** installierte das Team schliesslich die Installation im Igloo und führte die finalen Tests gemeinsam durch.
 
-![Abstimmung im Igloo](Abstimmung im Igloo.jpg)
+![Abstimmung im Igloo](Abstimmung im Igloo.JPG)
 
 ---
 
