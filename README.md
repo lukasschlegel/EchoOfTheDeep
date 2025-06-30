@@ -52,9 +52,9 @@ So kann unser Projekt Echo of the Deep nachgebaut werden:
 - Für den Hintergrund: Wellensound und beruhigende Ambient-Musik sammeln, in einem Schnittprogramm (wir haben Premiere Pro verwendet) zusammensetzen und optimalerweise als wav oder sonst als mp3 exportieren. 
 - Für den Sound-Effekt: Effekt passend komponieren (z.B. schnelle Wasserbewegung, die das Wegschwimmen der Quallen symbolisiert)
 
-[🎵 Hintergrundmusik abspielen](https://drive.google.com/drive/folders/1M8GITv5ircgsUhPRSOetbMWUt5L9bXKJ)
+[🎵 Hintergrundmusik abspielen](https://drive.google.com/file/d/19NIAtn2hQZWSFWfP5aOaqnds_dstn-Su/view?usp=drive_link)
 
-[🎵 Soundeffekt abspielen](https://drive.google.com/drive/folders/1M8GITv5ircgsUhPRSOetbMWUt5L9bXKJ)
+[🎵 Soundeffekt abspielen](https://drive.google.com/file/d/19CG1I3g2pxT2V_Kx3L226QoJmCtiMrmz/view?usp=drive_link)
 
 ### 3. Projekt in TouchDesigner aufsetzen
 
