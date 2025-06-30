@@ -209,7 +209,7 @@ Echo of the Deep zeigt, wie mit TouchDesigner eine faszinierende und immersive W
 
 Dieses Projekt entstand im Rahmen des Minors Creative Technology im Studiengang Multimedia Production an der Fachhochschule Graubünden.
 
-Dozent: Jan Fiess
-Semester: 4
-Jahr: 2025
+- Dozent: Jan Fiess
+- Semester: 4
+- Jahr: 2025
 
