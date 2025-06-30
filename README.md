@@ -214,7 +214,7 @@ Das Konzept sowie ein grosser Teil des TouchDesigner-Projekts wurden gemeinsam e
 
 Die Dokumentation wurde gemeinsam verfasst, wobei alle Gruppenmitglieder inhaltliche Beiträge leisteten. Während zwei Tagen in **Chur** installierte das Team schliesslich die Installation im Igloo und führte die finalen Tests gemeinsam durch.
 
-![Abstimmung im Igloo](Abstimmung_im_Igloo.JPG)
+![Abstimmung](Abstimmung_im_Igloo.JPG)
 
 ---
 
