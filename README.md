@@ -10,7 +10,7 @@ Das Video zeigt das Endergebnis, und wie die Installation entstanden ist:
 
 ## Videosokumentation
 
-[Videosokumentation ansehen](https://youtu.be/tkS_R5urPmU)
+[![Videosokumentation](https://img.youtube.com/vi/tkS_R5urPmU/0.jpg)](https://youtu.be/tkS_R5urPmU)
 
 ---
 
